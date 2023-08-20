@@ -1,0 +1,101 @@
+.collections {
+    box-shadow:  0px 1rem 1rem -1rem rgba(28, 28, 28, 0.12);
+}
+
+.collections-title {
+    margin: 30px 0 30px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.colletions-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.popular-dish-item {
+    position: relative;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.popular-dish-img-wrapper {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.popular-dish-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.popular-dish-title-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, 
+        rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.3) 85%);
+}
+
+.popular-dish-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    width: max-content;
+    font-size: 18px;
+}
+
+.popular-dish-ring {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    top: -7px;
+    border-radius: 50%;
+    border: 3px solid orangered;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .collections-title {
+        margin: 15px 0 15px 0;
+        font-size: 15px;
+    }
+    .popular-dish-item {
+        height: 120px;
+        width: 80px;
+    }
+    .popular-dish-img-wrapper {
+        height: 70px;
+        width: 70px;
+    }
+    .popular-dish-title-wrapper {
+        left: 5px;
+        width: 70px;
+        height: 70px;
+    }
+    .popular-dish-ring {
+        width: 75px;
+        height: 75px;
+        top: -3px;
+        border: 1px solid orangered;
+    }
+    .popular-dish-title {
+        font-size: 9px;
+    }
+
+}

@@ -1,0 +1,13 @@
+.black-bg {
+    background-color:black;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 480px){
+    .black-bg {
+        height: 50px;
+        width: 100%;
+    }
+}

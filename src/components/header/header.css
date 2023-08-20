@@ -1,0 +1,31 @@
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bx {
+    font-size: 40px;
+    margin: 0 20px 0 0;
+}
+
+.header-selection-title {
+    font-size: 25px;
+}
+
+
+@media  screen and (max-width: 480px) {
+    header {
+        height: 50px;
+    }
+    
+    .bx {
+        font-size: 20px;
+        margin: 0 10px 0 0;
+    }
+    
+    .header-selection-title {
+        font-size: 12px;
+    }
+  }

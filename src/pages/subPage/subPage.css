@@ -1,0 +1,211 @@
+.sub-page-top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub-page-img-bg {
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    top: -60%;
+    right: -100px;
+    z-index: -10;
+}
+.sub-page-top-img-wrapper {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+.sub-page-dish-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.sub-page-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.sub-page-header-title {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: .1px;
+    margin: 0 30px 0 0;
+}
+.sub-page-dish-description {
+    width: 50%;
+    font-size: 25px;
+    line-height: 35px;
+    color: grey;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.sub-page-time-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.sub-page-time-icon > i{
+    font-size: 30px;
+}
+.sub-page-time-icon > span {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px 0;
+}
+
+.sub-page-separator {
+    height: 10px;
+    background-color: rgba(128, 128, 128, 0.263);
+    width: 100vw;
+}
+
+.sub-page-dish-ingredients-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 30px 0;
+}
+.sub-page-ingredients {
+    font-size: 30px;
+    font-weight: 800;
+}
+.sub-page-people {
+    color: grey;
+}
+
+.sub-page-divider {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.314);
+    margin: 0px auto;
+}
+
+.sub-page-dish-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ingredients-title {
+    font-size: 25px;
+    font-weight: 800;
+    margin: 20px 0 0 0;
+}
+.sub-page-dish-top {
+    margin: 20px 0;
+}
+
+.appliances-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+.sub-page-appliances {
+    display: flex;
+    align-items: center;
+}
+.appliances-naem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px 0 0;
+    background-color: aliceblue;
+    width: 80px;
+    height: 100px;
+    padding: 20px;
+}
+.appliances-naem > i {
+    font-size: 60px;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 480px){
+
+
+    .sub-page-img-bg {
+        width: 500px;
+        height: 500px;
+        top: -20%;
+        right: -150px;
+        z-index: -10;
+    }
+
+    .sub-page-top-img-wrapper {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        top: 50px;
+    }
+    .sub-page-header-title {
+        font-size: 22px;
+        letter-spacing: .1px;
+        margin: 0 12px 0 0;
+    }
+    .sub-page-dish-description {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 8px 0;
+    }
+    .sub-page-time-icon > i {
+        font-size: 14px;
+    }
+    .sub-page-time-icon > span {
+        font-size: 8px;
+        margin: 22px 0;
+    }
+
+    .sub-page-separator {
+        height: 4px;
+    }
+
+    .sub-page-ingredients {
+        font-size: 14px;
+    }
+    .sub-page-people {
+        font-size: 10px;
+    }
+    
+
+    .sub-page-dish-ingredients-header {
+        margin: 15px 0;
+    }
+
+    .ingredients-title {
+        font-size: 14px;
+        margin: 8px 0 0 0;
+    }
+
+    .sub-page-dish-top {
+        margin: 10px 0;
+    }
+
+    .appliances-title {
+        font-size: 18px;
+    }
+
+    .appliances-naem > i {
+        font-size: 20px;
+    }
+
+    .appliances-naem {
+        margin: 10px 15px 0 0;
+        width: 40px;
+        height: 50px;
+        padding: 8px;
+    }
+
+    .appliances-naem > span{
+        font-size: 8px;
+    }
+}
+
